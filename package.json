@@ -1,0 +1,12 @@
+{
+  "name": "apk-host",
+  "version": "1.0.0",
+  "description": "Simple server to host APK file",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
