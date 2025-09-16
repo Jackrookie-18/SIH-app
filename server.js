@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname)));
 
 app.get('/', (req, res) => {
-  res.send('<h1>APK Host Server</h1><p>Download your app-release.apk from <a href="/app-release.apk">here</a></p>');
+  res.send('<h1>APK Host Server</h1><p>Download your sihappver1.2.apk from <a href="/sihappver1.2.apk">here</a></p>');
 });
 
 app.listen(port, () => {
